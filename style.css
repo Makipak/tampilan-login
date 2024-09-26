@@ -12,7 +12,7 @@ body{
         "side content1 content1 content1"
         "foot foot foot foot"
     ;
-    
+    background-color: #6482AD;
     height: 100vh;
     width: auto;
     grid-template-rows: 0.2fr auto 10fr 1fr;
@@ -21,13 +21,13 @@ body{
 
 header{
     grid-area: head;
-    background-color: black;
+    
 }
 
 nav{
     grid-area: nav;
-    background-color: aqua;
     height: 39px;
+    background-color: #E2DAD6;
 }
 
 ul{
@@ -41,21 +41,24 @@ ul{
 }
 
 li{
-    background-color: white;
+    
     padding: 10px;
 }
 
 aside{
     grid-area: side;
-    background-color: blue;
+    background-color: #F5EDED;
 }
 
 .descripsi{
     grid-area: content1;
-    background-color: brown;
+    background-image: url(img/bg.png);
+    
 }
+
 
 footer{
     grid-area: foot;
-    background-color: pink;
+    background-color: #E2DAD6;
+    
 }
