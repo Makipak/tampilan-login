@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+        "head head head head"
+        "nav nav nav nav"
+        "side content1 content1 content1"
+        "foot foot foot foot"
+    ;
+    
+    height: 100vh;
+    width: auto;
+    grid-template-rows: 0.2fr auto 10fr 1fr;
+    
+}
+
+header{
+    grid-area: head;
+    background-color: black;
+}
+
+nav{
+    grid-area: nav;
+    background-color: aqua;
+    height: 39px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    position: relative;
+    bottom: 16px;
+}
+
+li{
+    background-color: white;
+    padding: 10px;
+}
+
+aside{
+    grid-area: side;
+    background-color: blue;
+}
+
+.descripsi{
+    grid-area: content1;
+    background-color: brown;
+}
+
+footer{
+    grid-area: foot;
+    background-color: pink;
+}
