@@ -75,14 +75,74 @@ li a:hover{
 
 aside{
     grid-area: side;
-    background-color: #F5EDED;
+    background-color: #E2DAD6;
 }
+
+.kotak-login{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    gap: 15px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+.kotak-login h1{
+    font-size: 40px;
+}
+
+.username-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.username-input{
+    padding: 5px;
+}
+
+.password-input{
+    padding: 5px;
+}
+
+.password-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+}
+
+.kotak-login img{
+    width: 70px;
+    position: relative;
+    bottom: 20px;
+}
+
+
+
 
 .descripsi{
     grid-area: content1;
     background-image: url(img/bg.png);
     
     
+}
+
+.kata{
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 
 
