@@ -33,6 +33,7 @@ header{
 .judul h1{
     position: relative;
     right: 15%;
+    color: #E2DAD6;
 }
 
 .judul img{
@@ -76,21 +77,20 @@ li a:hover{
 aside{
     grid-area: side;
     background-color: #E2DAD6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .kotak-login{
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 40px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
     align-items: center;
+    padding: 50px;
     gap: 15px;
     font-family: "Fredoka", sans-serif;
     font-weight: bold;
-    border: 1px solid;
 }
 
 .kotak-login h1{
@@ -105,10 +105,12 @@ aside{
 
 .username-input{
     padding: 5px;
+    font-size: 15px;
 }
 
 .password-input{
     padding: 5px;
+    font-size: 15px;
 }
 
 .password-section{
@@ -121,6 +123,14 @@ button{
     margin-top: 20px;
     padding: 10px;
     width: 200px;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+button:hover{
+    background-color: black;
+    color: white;
 }
 
 .kotak-login img{
@@ -135,14 +145,28 @@ button{
 .descripsi{
     grid-area: content1;
     background-image: url(img/bg.png);
-    
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kata p{
+    text-align: center;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+}
+
+.kata h1{
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .kata{
     background-color: rgba(255, 255, 255, 0.4);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    padding: 10px;
+    border-radius: 4px;
 }
 
 
