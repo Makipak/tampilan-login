@@ -15,13 +15,31 @@ body{
     background-color: #6482AD;
     height: 100vh;
     width: auto;
-    grid-template-rows: 0.2fr auto 10fr 1fr;
+    grid-template-rows: 0.2fr auto 10fr 0.1fr;
     
 }
 
 header{
     grid-area: head;
     
+}
+
+.judul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.judul h1{
+    position: relative;
+    right: 15%;
+}
+
+.judul img{
+    width: 80px;
+    border-radius: 50px;
+    position: relative;
+    left: 15%;
 }
 
 nav{
@@ -40,8 +58,18 @@ ul{
     right: 30px;
 }
 
-li{
-    
+li{  
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color: white;
+    background: #6482AD;
     padding: 10px;
 }
 
@@ -54,11 +82,11 @@ aside{
     grid-area: content1;
     background-image: url(img/bg.png);
     
+    
 }
 
 
 footer{
     grid-area: foot;
     background-color: #E2DAD6;
-    
 }
