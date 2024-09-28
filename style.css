@@ -46,6 +46,8 @@ nav{
     grid-area: nav;
     height: 39px;
     background-color: #E2DAD6;
+    position: sticky;
+    top: 0;
 }
 
 ul{
